@@ -4,9 +4,10 @@ THU THẬP BỘ DỮ LIỆU NGÔN NGỮ KÝ HIỆU VIỆT NAM (VSL) BẰNG GĂNG
 
 MÔ TẢ DỰ ÁN
 ------------
-Dự án này tập trung vào việc phát triển một hệ thống nhận diện ngôn ngữ ký hiệu Việt Nam (VSL) sử dụng dữ liệu cảm biến từ găng tay thông minh tích hợp 6 cảm biến MPU6050. 
-Thu thập dữ liệu khi người dùng thực hiện ngôn ngữ ký hiệu tiếng Việt. Bộ dữ liệu này được dùng để huấn luyện mô hình máy học để nhận dạng được ngôn ngữ ký hiệu, hỗ trợ cho người khuyết tật giao tiếp với người bình thường.  
-Sau đó tiền xử lý và huấn luyện bằng các mô hình học sâu (CNN, LSTM, CNN-LSTM) trên Google Colab. Mục tiêu là triển khai mô hình trên ESP32 để nhận diện thời gian thực.
+Dự án này tập trung vào việc phát triển một hệ thống nhận diện ngôn ngữ ký hiệu Việt Nam (VSL-Vietnamese Sign Language) sử dụng dữ liệu cảm biến từ găng tay thông minh tích hợp 6 cảm biến MPU6050. 
+Bộ dữ liệu được thu thập từ hai tình nguyện viên, thực hiện 36 ký hiệu gồm các chữ cái và các từ vựng thông dụng.
+Bộ dữ liệu này được dùng để huấn luyện mô hình máy học để nhận dạng được ngôn ngữ ký hiệu, hỗ trợ cho người khuyết tật giao tiếp với người bình thường.  
+Qua các bước tiền xử lý và huấn luyện bằng các mô hình học sâu (CNN-LSTM) trên Google Colab. Mục tiêu là triển khai mô hình trên ESP32 để nhận diện thời gian thực.
 
 TÍNH NĂNG NỔI BẬT
 -----------------
